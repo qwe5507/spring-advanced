@@ -11,7 +11,8 @@ public class TraceId {
         this.level = level;
     }
     private TraceId(String id, int level) {
-
+        this.id = id;
+        this.level = level;
     }
 
     private String createId() {
